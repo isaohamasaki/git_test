@@ -14,7 +14,7 @@ Sub êVïisku()
       Sheet1.Cells(i, 2) = Application.WorksheetFunction.Round(Sheet1.Cells(i, 2) * 2.54 * 10, 0)
       Sheet1.Cells(i, 3) = Application.WorksheetFunction.Round(Sheet1.Cells(i, 3) * 2.54 * 10, 0)
       Sheet1.Cells(i, 4) = Application.WorksheetFunction.Round(Sheet1.Cells(i, 4) * 2.54 * 10, 0)
-      Sheet1.Cells(i, 5) = Application.WorksheetFunction.Round(Sheet1.Cells(i, 5) * 453.6 / 10, 0)
+      Sheet1.Cells(i, 5) = Application.WorksheetFunction.Round(Sheet1.Cells(i, 5) * 453.6, 0)
     Next i
     
 End Sub
